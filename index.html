@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido-header">
+        <h1>Rock & EDM Festival</h1>
+
+        <nav class="navegacion-principal">
+          <a href="#lineup">Line Up</a>
+          <a href="#galeria">Galería</a>
+          <a href="#boletos">Boletos</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="video">
+      <div class="overlay">
+        <div class="contenedor contenido-video">
+          <h2>
+            Rock & EDM Festival
+            <span>Julio 2021, Santiago, Chile</span>
+          </h2>
+        </div>
+      </div>
+      <video autoplay muted loop>
+        <source src="video/concierto.mp4" type="video/mp4" />
+        <source src="video/concierto.ogg" type="video/ogg" />
+        <source src="video/concierto.webm" type="video/webm" />
+      </video>
+    </div>
+
+    <div class="sobre-festival contenedor">
+      <div class="imagen">
+        <img src="build/img/imagen_vocalista.webp" alt="Vocalista" />
+      </div>
+      <div class="contenido-festival">
+        <h2>Rock & EDM Festival</h2>
+        <p class="fecha">Julio 2021, Santiago, Chile</p>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          nihil ex sint saepe tenetur magni hic, repudiandae blanditiis soluta
+          illum mollitia, repellendus maxime voluptates. Neque aliquam ab qui
+          voluptatem ratione? Ipsa, ullam veniam officiis rerum tempora eos
+          libero soluta? Eos, in quo voluptas dolor, minus sed alias illo iusto
+          fugit magnam quasi dignissimos nulla optio veritatis asperiores
+          commodi ducimus deleniti.
+        </p>
+      </div>
+    </div>
+
+    <section class="lineup">
+      <h3>Line Up</h3>
+      <p class="dia">Viernes 21</p>
+      <div class="escenarios-contenedor contenedor">
+        <div class="escenario rock bg-amarillo">
+          <p class="nombre-escenario">Escenario Rock</p>
+          <ul class="calendario">
+            <li>24:00 | <span>Metallica</span></li>
+            <li>22:00 | <span>Pearl Jam</span></li>
+            <li>20:00 | <span>Korn</span></li>
+            <li>19:00 | <span>Los Bunkers</span></li>
+            <li>18:00 | <span>AC/DC</span></li>
+            <li>17:00 | <span>Guns & Roses</span></li>
+          </ul>
+        </div>
+        <div class="escenario rap bg-verde">
+          <p class="nombre-escenario">Escenario Hip-Hop</p>
+          <ul class="calendario">
+            <li>23:30 | <span>Portavoz</span></li>
+            <li>22:00 | <span>Movimiento Original</span></li>
+            <li>20:00 | <span>Eminem</span></li>
+            <li>19:00 | <span>Kayne West</span></li>
+            <li>18:00 | <span>Rapper School</span></li>
+            <li>17:00 | <span>SFDK</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="dia">Sabado 22</p>
+      <div class="escenarios-contenedor contenedor">
+        <div class="escenario rock bg-verde">
+          <p class="nombre-escenario">Escenario Rock</p>
+          <ul class="calendario">
+            <li>24:00 | <span>Red Hot Chili Peppers</span></li>
+            <li>22:00 | <span>The Killers</span></li>
+            <li>20:00 | <span>Papa Roach</span></li>
+            <li>19:00 | <span>Lamb Of God</span></li>
+            <li>18:00 | <span>Limp Bizkit</span></li>
+            <li>17:00 | <span>Deftones</span></li>
+          </ul>
+        </div>
+        <div class="escenario rap bg-amarillo">
+          <p class="nombre-escenario">Escenario Hip-Hop</p>
+          <ul class="calendario">
+            <li>23:30 | <span>De Kiltroz</span></li>
+            <li>22:00 | <span>Chyste MC</span></li>
+            <li>20:00 | <span>Norick</span></li>
+            <li>19:00 | <span>Kase.O</span></li>
+            <li>18:00 | <span>Wos</span></li>
+            <li>17:00 | <span>Nathy Pelusso</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="galeria contenedor">
+      <h3>Galería</h3>
+      <ul class="galeria-imagenes"></ul>
+    </section>
+    <section class="entradas bg-verde">
+      <h3>Entradas</h3>
+      <div class="contenedor-entradas contenedor">
+        <div class="basico">
+          <p class="titulo-pase">Pase 1 Día</p>
+          <table>
+            <th>
+              <p><span>incluye</span></p>
+            </th>
+            <tr>
+              <td>
+                <p>Acceso a ambos escenarios</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Comida y bebida</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-footer">
+                <span class="entradas-precio">$5000</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="premium">
+          <p class="titulo-pase">Pase 2 Días</p>
+          <table>
+            <th>
+              <p><span>incluye</span></p>
+            </th>
+            <tr>
+              <td>
+                <p>Acceso a ambos escenarios</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Comida y bebida</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Camiseta del evento</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Acceso VIP</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-footer">
+                <span class="entradas-precio">$10000</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <p class=" contenedor">Diego Diaz® - 2021</p>
+      </div>
+    </footer>
+    <script src="build/js/bundle.js"></script>
+  </body>
+</html>
